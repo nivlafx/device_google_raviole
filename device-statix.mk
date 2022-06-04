@@ -77,3 +77,6 @@ $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
 
 # Properties
 TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
+
+# FaceUnlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
