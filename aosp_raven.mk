@@ -4,6 +4,9 @@ TARGET_BOOT_ANIMATION_RES := 1440
 #Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
+# Extra Google/Pixel features
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Inherit some common StatiX stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 $(call inherit-product, vendor/aosp/config/gsm.mk)
