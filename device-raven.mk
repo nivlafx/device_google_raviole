@@ -236,3 +236,6 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # This device is shipped with 31 (Android S)
 PRODUCT_SHIPPING_API_LEVEL := 31
+
+# PixelLauncher Mod
+$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
