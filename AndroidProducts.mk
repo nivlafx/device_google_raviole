@@ -19,7 +19,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_oriole_pkvm.mk \
     $(LOCAL_DIR)/aosp_oriole_64.mk \
     $(LOCAL_DIR)/factory_oriole.mk \
-    $(LOCAL_DIR)/aosp_ravensburger.mk \
+    $(LOCAL_DIR)/bliss_raven.mk \
     $(LOCAL_DIR)/aosp_raven_pkvm.mk \
     $(LOCAL_DIR)/aosp_raven_64.mk \
     $(LOCAL_DIR)/factory_raven.mk \
@@ -39,4 +39,5 @@ COMMON_LUNCH_CHOICES := \
     aosp_slider-userdebug \
     aosp_whitefin-userdebug \
     aosp_oriole-userdebug \
-    aosp_raven-userdebug
+    aosp_raven-userdebug \
+    bliss_raven-userdebug

@@ -238,4 +238,4 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SHIPPING_API_LEVEL := 31
 
 # PixelLauncher Mod
-$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
+#$(call inherit-product, vendor/PixelLauncher/PixelLauncher.mk)
